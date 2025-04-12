@@ -1,2 +1,7 @@
 # FaceRecognition
-FaceRecognition
+Generator.py - создает датасет с вебкамеры
+Network.py - сверточная нейронная сеть, на бинарной классификации. Распознает меня, а остальных людей как Unknown.
+Result.py - применение нейронной сети.
+model.keras - сохраненная версия сети
+haarcascade_frontalface_default.xml - каскад хаара для определения лица на фотографии.
+Отправил без датасетов.
